@@ -1,0 +1,56 @@
+commit 7e75a43c58f8e5d2ab7faccf049a6b5c94edf409 (HEAD, tag: v0.13.0, origin/main, origin/HEAD, main)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-09
+
+    Bump package and library versions
+
+commit 25e84886a0e14bdfb0e6500c05d35f37339b3439
+Merge: 10e2c71 6e178fa
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-08
+
+    Merge pull request #150 from ngtcp2/rearrange-liberr-codes
+    
+    Rearrange liberr codes
+
+commit 6e178fab060d1615c901164f92a9e7cd18265e03
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-08
+
+    Rearrange liberr codes
+
+commit 10e2c71b28448cb5a9f437899d390662a14f3c27
+Merge: 25772ff 6f4876f
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-24
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-24
+
+    Merge pull request #148 from ngtcp2/bump-min-cmake-version
+    
+    Bump minimum cmake version to 3.20
+
+commit 6f4876fa234456c2355e7fd7526045ab02d188f6
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-24
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-24
+
+    Bump minimum cmake version to 3.20
+    
+    Bump minimum cmake version to 3.20 which is the first version that has
+    CMAKE_C_BYTE_ORDER.
+
+commit 25772ff986df5d833b02d9b06de138af13d15166
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-04
+
+    Bump package version

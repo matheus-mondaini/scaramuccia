@@ -1,0 +1,686 @@
+commit c617374c1eacbef5abce6f7bb84d968e5679ba8b (HEAD, tag: v0.17.0, origin/main, origin/HEAD, main)
+Merge: ddad8506 4e2db882
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-09
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-09
+
+    Merge pull request #856 from ngtcp2/fix-make-html
+    
+    Fix make html failure
+
+commit ddad8506be25b824a38e9593878b48d98538f6dd
+Merge: bf3bed68 e54c022d
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-09
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-09
+
+    Merge pull request #855 from ngtcp2/update-bssl-build-instruction
+    
+    Use git checkout instead of reset
+
+commit 4e2db882b6a1e240eb5cc8ec1dd2dff7e2a8fd88
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-09
+
+    Fix make html failure
+
+commit e54c022dd2b7752f243446c834d3986ae25cd852
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-09
+
+    Use git checkout instead of reset
+
+commit bf3bed68ad8a1c75eb68e030bc9e6e39b6f29d64
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-09
+
+    Update AUTHORS
+
+commit dd64b97219d36afdb32be326bd6f95036188687a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-09
+
+    Bump package and library versions
+
+commit b96fde2d5b6d5d3dd9f0ce6336201b4a8472e593
+Merge: e83d9f3e d73c8efb
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-08
+
+    Merge pull request #854 from ngtcp2/bump-wolfssl
+    
+    Bump wolfssl
+
+commit d73c8efbbdb382704bfd9777d954930b5d4fa9c6
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-08
+
+    Bump wolfssl
+
+commit e83d9f3e2c277a00baae5f409d76d9303ec34151
+Merge: 5e908eaa 8c0e6264
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-08
+
+    Merge pull request #853 from ngtcp2/bump-boringssl
+    
+    Bump boringssl
+
+commit 8c0e62649baad6f87fe8db197500167dcb69b538
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-08
+
+    Use SSL_CTX_set1_groups_list
+
+commit e2e56b0c3f0a1e557dd992718235af4c11ac0271
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-08
+
+    Bump boringssl
+
+commit 5e908eaaaae6173a135731c263e2ef86c67754ad
+Merge: 0083935c e0391b03
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-08
+
+    Merge pull request #852 from ngtcp2/rearrange-liberr-codes
+    
+    Rearrange liberr codes
+
+commit e0391b035d000bab7ee271560924362035b60901
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-07-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-07-08
+
+    Rearrange liberr codes
+
+commit 0083935c22b8eb3be5e4273cbb556bb90c3ebf49
+Merge: 116fb224 9bac29f7
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-08
+
+    Merge pull request #835 from ngtcp2/crypto-quictls
+    
+    Use quictls/qtls suffix/prefix for crypto library and examples
+
+commit 116fb224d4224a89ae936045210feabaedc6c70c
+Merge: fd2472c6 428b7db0
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-07-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-07-08
+
+    Merge pull request #842 from ngtcp2/get-cid-num
+    
+    Rework getting the number of Connection IDs
+
+commit fd2472c60a65555e6c36633250105c53a2582274
+Merge: 7abfb632 ca375af3
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-27
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-27
+
+    Merge pull request #851 from ngtcp2/update-doc
+    
+    Update doc
+
+commit ca375af32697a2757e89ec83dae9a66b856bf818
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-26
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-26
+
+    Update doc
+
+commit 7abfb632b351d7bf46cef2c41f0b5d8ab8944f9e
+Merge: 576bad00 6c40732f
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-26
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-26
+
+    Merge pull request #850 from ngtcp2/fragmentation-threshold
+    
+    Increase stream data fragmentation threshold
+
+commit 6c40732f0ba9cb892cce3bb02633ebdbc0c35062
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-26
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-26
+
+    Increase stream data fragmentation threshold
+
+commit 428b7db08b874f210db92ccffa474d56c3bac079
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-25
+
+    Rework getting the number of Connection IDs
+    
+    ngtcp2_conn_get_num_scid has been removed.  ngtcp2_conn_get_scid(conn,
+    NULL) now returns the number of Source Connection IDs that this
+    function writes to the given buffer.
+    
+    Similarly, ngtcp2_conn_get_num_active_dcid has been removed, and
+    ngtcp2_conn_get_active_dcid(conn, NULL) returns the number of
+    Destination Connection IDs that this function writes to the given
+    buffer.
+
+commit 576bad004d9699f4fe800762082d814618b09ace
+Merge: 301844fa feaa0e3b
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-25
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-25
+
+    Merge pull request #849 from ngtcp2/amend-848
+    
+    Amend #848
+
+commit feaa0e3bec87d6c481ce0664a6b6ebe80a8cc949
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-25
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-25
+
+    Amend #848
+    
+    Amend #848
+
+commit 301844fa36ded08b1f66113ca5911565b34ceb78
+Merge: da95fab3 a5179cff
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-25
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-25
+
+    Merge pull request #848 from ngtcp2/gro
+    
+    Add UDP_GRO support
+
+commit a5179cff7f9db36f49ae98c6ff46934218245c2a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-25
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-25
+
+    Add UDP_GRO support
+
+commit da95fab379a6dec7b9e650aa15124f3cfc7eda99
+Merge: 1822eff6 d84af86e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-24
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-24
+
+    Merge pull request #847 from ngtcp2/bump-min-cmake-version
+    
+    Bump minimum cmake version to 3.20
+
+commit d84af86ec4ddbc37adad419d8c78510f7a86cc0c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-24
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-24
+
+    Bump minimum cmake version to 3.20
+    
+    Bump minimum cmake version to 3.20 which is the first version that has
+    CMAKE_C_BYTE_ORDER.
+
+commit 1822eff6768ac1513721b7aecf491583f4a64777
+Merge: cb53cca0 c9f2b3bc
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-24
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-24
+
+    Merge pull request #846 from ngtcp2/update-boringssl-build-instruction
+    
+    Update boringssl build instruction
+
+commit c9f2b3bcfe60faab1b4903e15bbc53eaca338777
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-24
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-24
+
+    Update boringssl revision in example
+
+commit 544e904cfd177b3f1202f6297f57b62a71042a99
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-24
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-24
+
+    Remove redundant empty lines
+
+commit cb53cca078d0cc72dd84cbf7b627d1f4ec028938
+Merge: 01ed18be f8d4ea4f
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-23
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-23
+
+    Merge pull request #838 from AvalonCorp/boringssl_readme
+    
+    Added borringssl build instructions to README.rst
+
+commit f8d4ea4ff4c3346c7c9652dbe017f961c2f52283
+Author:     Irina Guberman <irina.guberman@gmail.com>
+AuthorDate: 2023-06-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-19
+
+    Update README.rst
+    
+    Co-authored-by: Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+
+commit f723443ada8ad15376cf72dca2705f1caedce57b
+Author:     Irina Guberman <irina.guberman@gmail.com>
+AuthorDate: 2023-06-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-19
+
+    Update README.rst
+    
+    Co-authored-by: Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+
+commit 9560d0a7a4c883a009681a2977868b9dae3725df
+Author:     Irina Guberman <irina.guberman@gmail.com>
+AuthorDate: 2023-06-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-19
+
+    Update README.rst
+    
+    Co-authored-by: Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+
+commit 01ed18bed926e443379561409bd1467cd8717a39
+Merge: f8c54bd2 6604683b
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-19
+
+    Merge pull request #843 from ngtcp2/err-fatal
+    
+    Close connection with fatal error
+
+commit f8c54bd23bb3473de0c5f449bd86aad9c44e15c9
+Merge: 2fc6a7fa f21cdbd8
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-19
+
+    Merge pull request #844 from ngtcp2/amend-841
+    
+    Amend #841
+
+commit f21cdbd881d8d2cc59aae79e393e8ff25bd2e606
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-19
+
+    Amend #841
+    
+    Amend #841, it does not properly reset timestamp when it sends an
+    ACK-eliciting packet.
+
+commit 6604683b40834ad0e79689719939cb4a93a31835
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-19
+
+    Close connection with fatal error
+    
+    Initially, we recommended to drop connection without any action on a
+    fatal error (that is liberr < NGTCP2_ERR_FATAL).  But now the general
+    error handling is always call ngtcp2_conn_write_connection_close
+    except for some particular cases.
+
+commit 2fc6a7fa889b72aae0fee07cb3af5c788a5fbdc0
+Merge: a1bf8baa 22bb55ba
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-19
+
+    Merge pull request #841 from ngtcp2/ack-with-ping
+    
+    Include PING in ACK once per RTT
+
+commit 22bb55baad4a97c99a43b39681c709b4f6fc6975
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-19
+
+    Include PING in ACK once per RTT
+    
+    Include PING in ACK once per RTT if an endpoint only sends non
+    ACK-eliciting packets in this period as suggested by RFC 9000, section
+    13.2.4.  Previously, we did this once per continuous 3 non-ACK
+    eliciting packets.
+
+commit a1bf8baa9bee0e770528be08b4964d393d96a8e9
+Merge: 129c5be2 1deaba5c
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-18
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-18
+
+    Merge pull request #840 from ngtcp2/initial-pkt-num
+    
+    Configurable initial packet number
+
+commit 1deaba5c60313cac35a93368d9d221277450a14a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-17
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-18
+
+    Configurable initial packet number
+    
+    Allow an application to specify the initial packet number.
+
+commit c5ca8c818f938fc8e5bff49c21d1fa9600aa5e94
+Author:     Irina Guberman <irina.guberman@gmail.com>
+AuthorDate: 2023-06-17
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-17
+
+    Update README.rst
+    
+    Removed inaccurate section description in README
+
+commit ce978560141009c370d31929a5af04f026df41ae
+Author:     irina <irina.guberman@playavalon.com>
+AuthorDate: 2023-06-15
+Commit:     irina <irina.guberman@playavalon.com>
+CommitDate: 2023-06-15
+
+    Added borringssl build instructions to README.rst
+
+commit 9bac29f70846faee818465efbfca187142e7a63c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-10
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-11
+
+    Use quictls/qtls suffix/prefix for crypto library and examples
+    
+    Use quictls/qtls suffix/prefix for crypto library and examples to
+    disambiguate them from vanilla openssl.
+    
+    libngtcp2_crypto_openssl is renamed to libngtcp2_crypto_quictls.
+    
+    The following example applications are renamed:
+    
+    - client -> qtlsclient
+    - server -> qtlsserver
+    - h09client -> h09qtlsclient
+    - h09server -> h09qtlsserver
+    - simpleclient -> qtlssimpleclient
+
+commit 129c5be282b06b31e58c15caabdcade01e58bb55
+Merge: 65a63d68 a4a53b3e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-11
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-11
+
+    Merge pull request #837 from ngtcp2/avoid-quic-legacy-codepoint
+    
+    Do not use QUIC transport parameters legacy codepoint
+
+commit a4a53b3ec636bde18704f98b8ba9b701d70332b6
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-11
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-11
+
+    Do not use QUIC transport parameters legacy codepoint
+
+commit 65a63d68dd856451f2798629d164ad94daa7bfb0
+Merge: 2af89228 1d0cad66
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-11
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-11
+
+    Merge pull request #836 from ngtcp2/remove-draft-quic-versions
+    
+    Remove QUIC draft versions
+
+commit 1d0cad6697992cf71661e69a6cccb347f63e4aaa
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-11
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-11
+
+    Remove QUIC draft versions
+
+commit 2af89228f7442dcea33bcc8e79bb3548c59bb23d
+Merge: d93b1a08 a985bbf3
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-10
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-10
+
+    Merge pull request #834 from ngtcp2/remove-transport-params-v2
+    
+    Remove NGTCP2_TRANSPORT_PARAMS_V2
+
+commit a985bbf32b7eea6e845b2ad9291ccc3db8f491b0
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-10
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-10
+
+    Remove NGTCP2_TRANSPORT_PARAMS_V2
+
+commit d93b1a08873772fcba81bf6150b88d7d81ea785d
+Merge: c1f74d55 a6fde357
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-08
+
+    Merge pull request #833 from ngtcp2/idle-timeout-overflow
+    
+    Deal with idle timeout overflow
+
+commit a6fde3572e847ce95ac78a0e7ec0a55625373863
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-08
+
+    Deal with idle timeout overflow
+
+commit c1f74d5500078525e77aa1b23f4e2aac7243ea3c
+Merge: 40885edd 76c8b913
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-08
+
+    Merge pull request #832 from ngtcp2/assert-transport-params-durations
+    
+    Assert max_idle_timeout and max_ack_delay
+
+commit 76c8b913b3dfd8b58048db063d861be34597b5c4
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-08
+
+    Assert max_idle_timeout and max_ack_delay
+    
+    Assert ngtcp2_transport_params.max_idle_timeout and max_ack_delay for
+    invalid values.
+
+commit 40885edd5bfebf000e0cc365d620a1eda9afb990
+Merge: 7480ad07 39bf3605
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-08
+
+    Merge pull request #831 from ngtcp2/keep-alive-reserve-zero
+    
+    Reserve keep-alive timeout 0 as future extension
+
+commit 39bf36059a1d95ce5c8f297e4bcef3fb63d53c91
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-08
+
+    Reserve keep-alive timeout 0 as future extension
+    
+    Specifying 0 in timeout parameter of
+    ngtcp2_conn_set_keep_alive_timeout is reserved for a future extension,
+    and for now it is treated as if UINT64_MAX is given.
+
+commit 7480ad07455b2a1fa76af3b391bf688b05007334
+Merge: 488cfb4f 0dc77fa6
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-07
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-07
+
+    Merge pull request #830 from ngtcp2/keep-alive-default
+    
+    keep-alive timeout defaults to UINT64_MAX
+
+commit 488cfb4f71b70c51d4131ff3cb987233d0887f47
+Merge: 28309ffa 5093a202
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-07
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-07
+
+    Merge pull request #829 from ngtcp2/handshake-timeout-overflow
+    
+    Deal with handshake timeout overflow
+
+commit 0dc77fa628f0a4162e309daf870d7feaf01a62ee
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-07
+
+    keep-alive timeout defaults to UINT64_MAX
+    
+    This changes the default value of keep-alive timeout to UINT64_MAX.
+    Previously, it is 0, and it is the value that disables keep-alive.
+    Now, to disable keep-alive, set it to UINT64_MAX.
+
+commit 5093a202b3eb52cddd541231dae7b2c88c30373b
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-07
+
+    Deal with handshake timeout overflow
+
+commit 28309ffa442234bc6b99ab99e3a92610b8e83c63
+Merge: 11cfcf66 b8b7b957
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-07
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-07
+
+    Merge pull request #828 from ngtcp2/tstamp-elapsed-helpers
+    
+    Add ngtcp2_tstamp_elapsed and ngtcp2_tstamp_not_elapsed macros
+
+commit b8b7b957a2ea08e15dd8c2d6966e616b4337537c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-05
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-07
+
+    Add ngtcp2_tstamp_elapsed and ngtcp2_tstamp_not_elapsed macros
+
+commit 11cfcf666778704c0711b19423b4c482240df2e3
+Merge: 19e7a49a 2da560ab
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-05
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-05
+
+    Merge pull request #827 from ngtcp2/fix-timeout-off-by-one
+    
+    Fix timeout off-by-one error
+
+commit 2da560ab425bb1286fc1d93efc5c096533d29558
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-05
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-05
+
+    Fix timeout off-by-one error
+
+commit 19e7a49a7d60f377fde49d7b5522984ed61ad0ca
+Merge: 21b176fc 839d6180
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2023-06-05
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2023-06-05
+
+    Merge pull request #826 from ngtcp2/netlink-validation
+    
+    More netlink validation
+
+commit 839d6180b43ca7c4ffbe699143326780ace4b010
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-05
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-05
+
+    More netlink validation
+    
+    Validate netlink sequence number.  Fail if NLM_F_MULTI is set in the
+    response header.  Read ACK because we asked for it.
+
+commit 21b176fc66e5b4fc83779fe069d32ae88aac5f6f
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2023-06-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2023-06-04
+
+    Bump package version
