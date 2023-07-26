@@ -11,10 +11,25 @@ int getRandomNumber(int min, int max) {
     return min + rand() % (max - min + 1);
 }
 
-size_t write_callback(void* ptr, size_t size, size_t nmemb, char* data) {
-    strncpy(data, (char*)ptr, MAX_JOKE_LENGTH - 1);
-    data[MAX_JOKE_LENGTH - 1] = '\0';
-    return size * nmemb;
+struct MemoryBuffer {
+    char* memory;
+    size_t size;
+};
+
+size_t write_callback(void* ptr, size_t size, size_t nmemb, struct MemoryBuffer* data) {
+    size_t total_size = size * nmemb;
+    data->memory = realloc(data->memory, data->size + total_size + 1);
+
+    if (data->memory == NULL) {
+        printf("Failed to allocate memory for the API response.\n");
+        return 0;
+    }
+
+    memcpy(&(data->memory[data->size]), ptr, total_size);
+    data->size += total_size;
+    data->memory[data->size] = '\0';
+
+    return total_size;
 }
 
 int main() {
@@ -22,7 +37,7 @@ int main() {
 
     printf("Welcome to the Joke Generator!\n");
 
-    char api_response[MAX_JOKE_LENGTH];
+    struct MemoryBuffer api_response = {NULL, 0};
 
     int run = 1;
 
@@ -45,34 +60,40 @@ int main() {
 
             curl_easy_setopt(curl, CURLOPT_URL, url);
             curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
-            curl_easy_setopt(curl, CURLOPT_WRITEDATA, api_response);
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &api_response);
+
+            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
 
             CURLcode res = curl_easy_perform(curl);
-
-            curl_easy_cleanup(curl);
-
             if (res != CURLE_OK) {
-                printf("Failed to fetch joke from the API. Error: %s\n", curl_easy_strerror(res));
+                printf("Failed to fetch joke from the API.\n");
+                curl_easy_cleanup(curl);
                 continue;
             }
 
-            printf("API Response:\n%s\n", api_response);
-
-            cJSON* json = cJSON_Parse(api_response);
+            cJSON* json = cJSON_Parse(api_response.memory);
             if (!json) {
                 printf("Failed to parse JSON response.\n");
+                curl_easy_cleanup(curl);
                 continue;
             }
 
-            cJSON* setup = cJSON_GetObjectItemCaseSensitive(json, "setup");
-            cJSON* delivery = cJSON_GetObjectItemCaseSensitive(json, "delivery");
-            if (cJSON_IsString(setup) && cJSON_IsString(delivery)) {
+            cJSON* setup = cJSON_GetObjectItem(json, "setup");
+            cJSON* delivery = cJSON_GetObjectItem(json, "delivery");
+            cJSON* category = cJSON_GetObjectItem(json, "category");
+
+            if (cJSON_IsString(setup) && cJSON_IsString(delivery) && cJSON_IsString(category)) {
                 printf("\n%s %s\n", setup->valuestring, delivery->valuestring);
             } else {
                 printf("Failed to extract joke from the API response.\n");
             }
 
             cJSON_Delete(json);
+            free(api_response.memory);
+            api_response.memory = NULL;
+            api_response.size = 0;
+
+            curl_easy_cleanup(curl);
         } else {
             printf("Invalid choice. Try again.\n");
         }
